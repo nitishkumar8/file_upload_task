@@ -1,0 +1,59 @@
+@charset "utf-8";
+/* CSS Document */
+
+.brnad-txt{margin-top: 5%;
+           color: #4a1972;
+           font-size: 16px;
+           }
+.submit-mgnt{margin-top:40px;
+             }
+
+.mgnt30{margin-top: 30px;}
+.tb-img{width:100px;
+        height: 90px;}
+.big-img{width:60%;
+margin: auto;}
+.max{width: 100%;}
+.mgntop5{margin-top: 5%;}
+.mgntop10{margin-top:9.5%;}
+.pdgz0{padding: 0;}
+.admin_iom{
+    margin-top: 30px;
+    margin-left: 10%;
+}
+.admin_iom h5{
+    font-size:18px;
+    padding-top: 8px;
+}
+.dropdown-menu {
+    position: relative; 
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+    display: none;
+    float: left;
+    /* min-width: 160px; */
+    width: 100%;
+    padding: 5px 0;
+    margin: 2px 0 0;
+    font-size: 18px;
+    text-align: left;
+    list-style: none;
+    background-color: #fff;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    border: 1px solid #ccc;
+    border: 1px solid rgba(0,0,0,.15);
+    border-radius: 4px;
+    -webkit-box-shadow: 0 
+    box-shadow: 0 
+}
+.notav{color:black;
+font-size: 18px;
+text-align: center;
+display: none;}
+
+
+
+
+

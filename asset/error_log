@@ -1,0 +1,9 @@
+[09-Sep-2019 05:12:51 UTC] PHP Notice:  Undefined index: logstatus in /home/medgini1/public_html/fdc_lumina/fdc/asset/index.php on line 3
+[09-Sep-2019 05:12:51 UTC] PHP Notice:  Undefined index: empcode in /home/medgini1/public_html/fdc_lumina/fdc/asset/index.php on line 88
+[09-Sep-2019 05:12:51 UTC] PHP Notice:  Undefined index: passwd in /home/medgini1/public_html/fdc_lumina/fdc/asset/index.php on line 91
+[09-Sep-2019 05:12:51 UTC] PHP Warning:  include(new_password.php): failed to open stream: No such file or directory in /home/medgini1/public_html/fdc_lumina/fdc/asset/index.php on line 117
+[09-Sep-2019 05:12:51 UTC] PHP Warning:  include(new_password.php): failed to open stream: No such file or directory in /home/medgini1/public_html/fdc_lumina/fdc/asset/index.php on line 117
+[09-Sep-2019 05:12:51 UTC] PHP Warning:  include(): Failed opening 'new_password.php' for inclusion (include_path='.:/opt/alt/php54/usr/share/pear:/opt/alt/php54/usr/share/php') in /home/medgini1/public_html/fdc_lumina/fdc/asset/index.php on line 117
+[09-Sep-2019 05:12:51 UTC] PHP Notice:  Undefined index: status in /home/medgini1/public_html/fdc_lumina/fdc/asset/index.php on line 120
+[09-Sep-2019 05:12:51 UTC] PHP Notice:  Undefined index: pps in /home/medgini1/public_html/fdc_lumina/fdc/asset/index.php on line 121
+[09-Sep-2019 05:12:51 UTC] PHP Notice:  Undefined index: rst in /home/medgini1/public_html/fdc_lumina/fdc/asset/index.php on line 122

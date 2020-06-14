@@ -1,0 +1,463 @@
+
+@charset "utf-8";
+/* CSS Document */
+
+@import url(https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,700);
+
+.{
+	margin: 0;
+	padding: 0;
+}
+h1,h2,h3,h4,h5,h6,ul,li,p,a{
+	margin: 0;
+	padding: 0;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 400;
+}
+.padding{
+    padding: 0;
+}
+.mgnt20{
+    margin-top: 20px;
+}
+body{
+	background-color: #f8f8f8;
+}
+header{
+	width: 100%;
+	height: 80px;
+	background-color:#4a1972;
+    box-shadow:4px 10px 0 #f2f2f2;
+}
+header img{
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    margin-top: 10px;
+   
+}
+header h2{
+    font-size: 30px;
+    line-height: 80px;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+}
+.user_details h3{
+    color: #fff;
+    margin-top:15px;    
+    font-size: 20px;
+    
+    
+    
+}
+.home .row{
+    margin: 0;
+}
+.user_details h5{
+    color: #fff;
+    font-size: 18px;
+    margin-top: 5px;
+    
+}
+
+header .logout a{
+   color: #fff;
+    font-size: 18px;
+    line-height: 80px;
+    text-align: center;
+
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover {
+    color: #4a1972;
+    background-color: #e7e7e7;
+   
+}
+.navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover {
+    color: #4a1972;
+    background-color: #e7e7e7;
+}
+.navbar-default .navbar-nav > li > a {
+    color: #333;
+    font-size: 18px;
+}
+.nav > li{
+    border-bottom: 1px solid #ccc;
+}
+
+textarea{
+	resize: none;
+}
+.competion {
+	padding-top: 5%;
+	padding-left: 5%;
+}
+.competion h5{
+	font-size:18px;
+	color: #333;
+	padding-top:7px;
+}
+.pob h5{
+	font-size:18px;
+	color: #333;
+	padding-top:7px;
+}
+.form_gap{
+	margin-top:20px;
+}
+.iom{
+	background-color: #f2f2f2;
+	height:568px;
+    float: left;
+    padding-top:10%;
+    
+}
+.rewards_sub{
+    background-color: #fff;
+	height:568px;
+    float: left;
+    padding-top:10%;
+    padding-left: 10%;
+    width: 100%;
+}
+.rewards{
+    background-color: #fff;
+	height:auto;
+    float: left;
+    
+}
+.competion{
+	background-color: #fff;
+	height:568px;
+}
+.pob{
+   background-color: #fff;
+	height:auto;
+    padding:10%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+   
+}
+#pob{
+    display: none; 
+}
+.pob1{
+   background-color: #fff;
+	height:auto;
+    padding:20px 10%;
+    
+}
+#pob1{
+    display: none;
+}
+.pob2{
+   background-color: #fff;
+	height:auto;
+    padding:20px 10%;
+     
+    
+}
+#pob2{
+   display: none; 
+}
+.contant{
+    width: 100%;
+    padding-top: 20%;
+    padding-bottom: 20%;
+}
+.smile{
+    width: 200px;
+    margin: 20px auto;
+}
+.smile img{
+    width: 100%;
+     height: 200px;
+}
+.contant h2{
+    text-align: center;
+    color: #666;
+}
+.contant h4{
+    text-align: center;
+    color: #999;
+}
+.home {
+	background-color: #fff;
+	height:568px;
+    float: left;
+}
+#bookForm,.form-group1{
+    float: left;
+}
+.sub_brand{
+	background-color: #fff;
+	height:auto;    
+}
+.recognition{
+   
+    background-color: #fff;
+	height:auto;
+    padding:20px;
+}
+.home{
+    padding-top: 20px;
+}
+.home h4{
+    color:#666;
+}
+.home img{
+    width: 120px;
+	height: 120px;
+	background-size: 150px 150px;
+	margin: auto;
+}
+.home .brand_image{
+    width: 120px;
+    height: 120px;
+    background-color:#4a1972;
+    border-radius: 100%;
+	margin: auto;
+    margin-top: 20px;
+}
+.home .icon h3{
+	font-size:18px;
+	color: #333;
+	margin: 20px auto;
+    text-align: center;
+}
+
+.iom img{
+	width: 120px;
+	height: 120px;
+	margin: auto;
+}
+.iom .brand_image{
+	width: 120px;
+    height: 120px;
+    background-color:#fff;
+    border-radius: 100%;
+    box-shadow: 0px 2px 4px rgba(0,0,0,0.2);
+	margin: auto;
+    border: 2px solid #4a1972;
+    margin-top: 20px;
+}
+.iom .icon h3{
+	font-size:18px;
+	color: #333;
+	margin: 20px auto;
+    text-align: center;
+}
+.welcome_message{
+    
+}
+.welcome_message h3{
+    font-size: 30px;
+    color: #4a1972;
+    text-align: center;
+}
+.welcome_message h4{
+    color: #999;
+    text-align: center;
+    text-transform: uppercase;
+    
+}
+.welcome_message h5{
+    color: #4a1972;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 16px;
+}
+.btn-success{
+    background-color:#66388b;
+    border-color:#66388b;
+     padding:7px 20px;
+    font-size: 18px;
+}
+
+.btn-success:hover{
+    background-color: #4a1972;
+    border-color: #4a1972;
+   
+}
+.btn-success:active{
+    background-color: #4a1972;
+    border-color: #4a1972;
+}
+.btn-success:active:focus,{
+    background-color: #4a1972;
+    border-color: #4a1972;
+}
+.btn-success:focus{
+    background-color: #4a1972;
+    border-color: #4a1972;
+}
+footer{
+    width: 100%;
+    height: 70px;
+    background-color: #666;
+}
+
+.scroll{
+    white-space: 100%;
+    padding-left:15%;
+    padding-right: 10%;
+    max-height: 580px;
+    padding-bottom: 20px;
+    overflow: scroll;
+}
+.m_nav{
+    padding: 10px 20px;
+}
+.m_nav a{
+    
+}
+.m_nav a:hover{
+    text-decoration: none;
+}
+.m_nav h4{
+    font-size: 18px;
+    color: #333;
+}
+.addBut{
+    margin-top: 35PX;
+}
+.sub_brand_logo img{
+    width: 100%;
+    height: 120px;
+}
+.sub_brand_text{
+    width: 100%;
+    height: 120px;
+    background-color: #4a1972;
+}
+.sub_brand_text h3{
+    font-size: 20px;
+    padding:10px 10px 5px 20px;
+    color: #fff;
+}
+.sub_brand_text h5{
+    font-size: 16px;
+    padding:0px 10px 10px 20px;
+    color: #ccc;
+    
+}
+.each_brand{
+	background-color: #fff;
+	height:auto;
+    padding-bottom: 30px;
+    float: left;
+    width: 100%;
+}
+.each_brand_logo img{
+    width: 100%;
+    height: 300px;
+    margin-top: 20px;
+}
+
+.m_subnav h3{
+    font-size: 18px;
+    padding: 10px 20px;
+}
+
+.each_brand_text {
+    
+}
+.each_brand_text h2{
+    font-size: 24px; 
+    color: #4a1972;
+    margin-top: 10px;
+}
+.each_brand_text p{
+    font-size: 16px;
+    margin-top: 10px;
+    
+}
+
+.feedback{
+    margin-top: 20px;
+    padding-top: 20px;
+    border-top: 1px solid #ccc;
+}
+.feedback h3{
+    font-size: 18px;
+}
+.feedback .btn{
+    margin-top: 30px;
+    margin-left: 20%;
+}
+.lot{
+    position: relative;
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    margin-top: 50%;
+}
+.lot img{
+    position: relative;
+    width: 100px;
+    height: 100px;
+    
+    
+}
+.lot h3{
+    position: absolute;
+    text-align: center;
+    font-size: 28px;
+    color: #4a1972;
+    transform:rotate(-45deg);
+    top:35%;
+    left: 10%;
+}
+#bookForm h5{
+    margin-bottom: 10px;
+}
+.voucher{
+    /*background-color: #4a1972;*/
+    float: left;
+    padding: 5px 0;
+    border: 1px solid #4a1972;
+    border-radius: 4px;
+}
+.voucher_img img{
+    width: 100%;
+    height: 120px;
+}
+.voucher_text{
+    
+}
+.voucher_text h3{
+    font-size: 22px;
+    color: #333;
+    padding:10px 0;
+}
+.voucher_text h5{
+    font-size: 16px;
+    color: #666;
+    padding-top: 5px;
+    
+}
+.rewards_headtxt h3{
+    font-size: 22px;
+    color: #333;
+    padding-top: 20px;
+}
+.rewards_headtxt h6{
+    font-size: 18px;
+    color: #999;
+    width: 80%;
+    padding-top: 10px;
+    margin: auto;
+    
+}
+
+ footer h4{
+            color: #fff;
+            line-height: 70px;
+        }
+footer{
+            margin-top: 20px;
+        }
+
+
+
+

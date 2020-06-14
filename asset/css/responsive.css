@@ -1,0 +1,195 @@
+/* make sidebar nav vertical */ 
+@media (min-width: 768px) {
+  .sidebar-nav .navbar .navbar-collapse {
+    padding: 0;
+    max-height: none;
+  }
+  .sidebar-nav .navbar ul {
+    float: none;
+  }
+  .sidebar-nav .navbar ul:not {
+    display: block;
+  }
+  .sidebar-nav .navbar li {
+    float: none;
+    display: block;
+  }
+  .sidebar-nav .navbar li a {
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
+	.navbar-default{
+		min-height:599px;
+	}
+    .rewardst{
+        margin-top: 15%;
+    }
+    .check{
+        margin-left: 25%;
+    }
+}
+@media (max-width:768px){
+     header h2{
+    font-size:18px;
+}
+    .user_details h3{
+    color: #fff;
+    margin-top:15px;    
+    font-size: 14px;
+    overflow: hidden;
+}
+
+.user_details h5{   
+    color: #fff;
+    font-size: 14px;   
+    
+}
+    .scroll{
+        padding-left:0%;
+        padding-right: 0;
+    }
+    .pob{
+        padding-left: 0;
+        padding: 20px;
+    }
+    .iom , .competion, .home , .sub_brand, .pob,.rewards_sub,.rewards{
+	background-color: #fff;
+	height:auto;
+    padding-bottom: 20px;
+}
+ .check {
+    margin-left: 20%;
+}    
+    
+    
+}
+@media (max-width: 480px){
+    .iom , .competion, .home , .sub_brand, .pob,.rewards_sub,.rewards{
+	background-color: #fff;
+	height:auto;
+    padding-bottom: 20px;
+}
+	.competion h5{
+		padding-top: 10px;
+		padding-bottom: 10px;
+}
+    .pob h5{
+		padding-top: 10px;
+		padding-bottom: 10px;
+}
+	.pob {
+	margin-left:0%;
+	margin-top:0%;
+}
+    
+    header h2{
+    font-size:18px;
+    display: none;
+}
+    .user_details h3{
+    color: #fff;
+    margin-top:15px;    
+    font-size: 14px;
+    overflow: hidden;
+   
+    
+    
+    
+}
+
+.user_details h5{
+   
+    color: #fff;
+    font-size: 14px;
+   
+    
+}
+    .home .col-xs-6{
+        float: left;
+    }
+    
+    .navbar{
+        margin-bottom: 0;
+    }
+    .form-group1 .col-xs-4,.form-group1 .col-xs-3,.form-group1 .col-xs-2{
+        padding: 0;
+        margin: 0;
+    }
+    .addBut{
+    margin-top: 47PX;
+}
+    .scroll{
+        padding-left: 0;
+    }
+    .home h2,.iom h2, .pob h2, .competion h2, .contact h2,.rewards h2,recognition h2,.rewards h2, .rewards_sub h2,.recognition h2{
+        color: #4a1972;
+        margin:10px auto;
+    }
+    .voucher_img img{
+    width: 100%;
+    height: 80px;
+}
+    .voucher_text{
+    
+}
+.voucher_text h3{
+    font-size: 18px;
+    color: #333;
+    padding-top:5px;
+}
+.voucher_text h5{
+    font-size: 14px;
+    color: #666;
+    padding-top:7px;
+    
+}
+    .rewards_headtxt h3{
+    font-size: 18px;
+    color: #333;
+    padding-top: 20px;
+}
+.rewards_headtxt h6{
+    font-size: 16px;
+    color: #999;
+    width: 90%;
+    padding-top:5px;
+    margin: auto;
+    
+}
+    .rewards_sub{
+    background-color: #fff;
+	height:568px;
+    float: left;
+    padding-top:10%;
+    padding-left:2%;
+    width: 100%;
+}
+ .btn-info, .btn-primary {
+    font-size: 14px;
+    height: auto;
+}  
+    .message h4{
+                width:100%;
+                margin: auto;
+                font-size: 18px;
+                color: #333;
+            }
+    .modal-dialog {
+    margin: 100px auto
+  	
+}
+    
+    .sub_brand_logo img{
+    width: 100%;
+    height: 100px;
+}
+.sub_brand_text{
+    width: 100%;
+    height: 100px;
+    background-color: #4a1972;
+}
+    
+    
+    
+    
+}
